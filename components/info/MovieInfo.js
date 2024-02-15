@@ -13,7 +13,7 @@ const MovieInfo = (props) => {
       <div className="pt-2 pb-8 flex justify-center">
         <iframe
           className="w-4/5 aspect-video"
-          src={"https://watch-23eqf3-us-east.streamflix.one/player?id=${tmdbId}&server=3" + id}
+          src={"https://watch-23eqf3-us-east.streamflix.one/player?id=${tmdbId}&server=3"}
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
